@@ -12,7 +12,7 @@ public class ARPlacement : MonoBehaviour
     private Pose PlacementPose;
     private ARRaycastManager aRRayCastManager;
 
-    private bool placementPoseIsValid = false;
+    private bool placementPoseIsValid = true;
 
     void Start()
     {
@@ -51,7 +51,7 @@ public class ARPlacement : MonoBehaviour
 
     void UpdatePlacementPose()
     {
-        var screenCenter = Camera.current.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
+        var screenCenter = Camera.main.ViewportToScreenPoint(new Vector3(0.5f, 0.5f,0.5f));
         var hits = new List<ARRaycastHit>();
         aRRayCastManager.Raycast(screenCenter, hits, UnityEngine.XR.ARSubsystems.TrackableType.Planes);
 
