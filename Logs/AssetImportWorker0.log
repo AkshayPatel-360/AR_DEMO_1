@@ -137,3 +137,75 @@ Received Import Request.
   path: Assets/Resoources/Scripts/MoveObjectToPlane.cs
   artifactKey: Guid(6668759aa0b905049b0c38537bd5a656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Resoources/Scripts/MoveObjectToPlane.cs using Guid(6668759aa0b905049b0c38537bd5a656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ceebc6ca3fb78baa20706faf9bf39e8') in 0.028092 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002248 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.112 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1112ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (920ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (311ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1827 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.3 MB.
+System memory in use after: 80.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2291.
+Total: 2.589900 ms (FindLiveObjects: 0.132100 ms CreateObjectMapping: 0.062700 ms MarkObjects: 2.370600 ms  DeleteObjects: 0.023900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 71.400436 seconds.
+  path: Assets/Resoources/Scripts/FindPlane.cs
+  artifactKey: Guid(d45071e0a3f0e974897278a3560d470b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resoources/Scripts/FindPlane.cs using Guid(d45071e0a3f0e974897278a3560d470b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6f03ff918eff4369282c9ce400e91f') in 0.011266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.129634 seconds.
+  path: Assets/Resoources/Scripts/FindPlane.cs
+  artifactKey: Guid(d45071e0a3f0e974897278a3560d470b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resoources/Scripts/FindPlane.cs using Guid(d45071e0a3f0e974897278a3560d470b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eaa84bc099dff470dd3ddc5a5a47977') in 0.003813 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
